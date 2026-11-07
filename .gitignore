@@ -148,6 +148,13 @@ venv.bak/
 extracted/
 output/
 
+# Portal web (Vue + Vite)
+web/node_modules/
+web/dist/
+tools/.cache/
+*.log
+npm-debug.log*
+
 # Spyder project settings
 .spyderproject
 .spyproject
