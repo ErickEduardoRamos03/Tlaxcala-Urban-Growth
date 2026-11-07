@@ -1,0 +1,14 @@
+# Entorno verificado con Python 3.14.0 (Windows).
+# Crear entorno:  python -m venv .venv
+# Instalar:        .venv\Scripts\pip install -r requirements.txt
+
+# --- Analisis de datos ---
+pandas==3.1.1
+numpy==2.5.4
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# --- Ejecucion del notebook ---
+jupyterlab==4.6.6
+ipykernel==7.4.0
+nbconvert==7.17.2
