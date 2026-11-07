@@ -41,7 +41,7 @@ Determinar la correlación entre el crecimiento de unidades económicas de servi
 
 ## 🌐 Portal interactivo
 
-**👉 [erickeduaramos03.github.io/Tlaxcala-Urban-Growth](https://erickeduaramos03.github.io/Tlaxcala-Urban-Growth/)**
+**👉 [erickeduardoramos03.github.io/Tlaxcala-Urban-Growth](https://erickeduardoramos03.github.io/Tlaxcala-Urban-Growth/)**
 
 El cuaderno responde preguntas puntuales; el portal deja recorrer el territorio completo. Incluye:
 
