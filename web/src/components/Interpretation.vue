@@ -50,9 +50,9 @@ const tlaxcala = computed(() => FOCUS.find((m) => m.nombre === 'Tlaxcala'))
         <h3 class="read__title">San Pablo del Monte es el caso mas completo</h3>
         <p class="read__text">
           Paso de {{ fmtInt(sp?.alim2010) }} a {{ fmtInt(sp?.alim2025) }} establecimientos
-          ({{ fmtPct(sp?.crec_alim_pct) }}) y es, al mismo tiempo, el municipio con mayor
-          crecimiento porcentual y con mayor aumento absoluto. Cuando coinciden las dos
-          medidas, la senal es dificil de explicar por dinamicas de escala.
+          ({{ fmtPct(sp?.crec_alim_pct) }}) y es el municipio con mayor aumento absoluto.
+          Cuando coinciden un gran volumen y un crecimiento de tres digitos, la senal es
+          dificil de explicar por dinamicas de escala.
         </p>
       </article>
 
