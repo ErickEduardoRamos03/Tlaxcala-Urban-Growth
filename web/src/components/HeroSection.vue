@@ -25,6 +25,9 @@ const estadisticas = computed(() => [
     pie: `${topCrecimiento[0].nombre}, de ${fmtInt(topCrecimiento[0].alim2010)} a ${fmtInt(topCrecimiento[0].alim2025)}`,
   },
 ])
+
+/** Ancho de cada barra, proporcional al valor mayor (2025 = 100%). */
+const ancho2010 = computed(() => `${((totalAlim2010 / totalAlim2025) * 100).toFixed(1)}%`)
 </script>
 
 <template>
@@ -71,7 +74,7 @@ const estadisticas = computed(() => [
             <div class="hero__bar">
               <span class="hero__bar-label">2010</span>
               <div class="hero__bar-track">
-                <div class="hero__bar-fill hero__bar-fill--past" :style="{ width: '100%' }"></div>
+                <div class="hero__bar-fill hero__bar-fill--past" :style="{ width: ancho2010 }"></div>
               </div>
               <span class="hero__bar-val num">{{ fmtInt(totalAlim2010) }}</span>
             </div>
